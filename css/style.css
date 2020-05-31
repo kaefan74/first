@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(sanitize.css);
 html{
   font-size: 10px;
 }
@@ -28,6 +27,7 @@ header{
 }
 a {
   text-decoration: none;
+  color:palevioletred
 }
 .headerImg{
   position: relative;
@@ -70,6 +70,7 @@ a {
   padding: 2rem;
   font-size: 1.8rem;
   border-radius: 10%;
+  line-height: 3rem;
 }
 .profile_details .picture{
   width: 25rem;
@@ -152,6 +153,12 @@ input[type="submit"] {
   cursor: pointer;
   line-height: 1;
 }
+.twitter-timeline img{
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
 footer{
   padding: 6rem 0;
   background: lavenderblush;
@@ -166,8 +173,6 @@ footer{
     margin: 0;
   }
   .main-nav{
-    display: block;
-    text-align: start;
     margin: 2rem auto;
     text-align: center;
   }
@@ -197,5 +202,3 @@ footer{
     min-height: 65rem;
   }
 }
-
-

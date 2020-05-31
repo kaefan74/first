@@ -1,3 +1,6 @@
+html{
+  font-size: 10px;
+}
 body{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,33 +9,38 @@ body{
   font-weight: bolder;
 }
 p{
-  font-size: 20px;
+  font-size: 2rem;
 }
 #box{
-  width: 450px;
-  height: 350px;
+  width: 45rem;
+  height: 35rem;
   background-color: rgba(255, 192, 203, 0.756);
   margin: 0 auto;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   border: 1px solid burlywood;
   box-shadow: 2px 3px rgb(244, 177, 177);
 }
 #bx{
-  width: 350px;
-  height: 200px;
+  width: 35rem;
+  height: 20rem;
   background-color:snow;
   margin: 0 auto;
-  border-radius: 40px;
+  border-radius: 4rem;
   border: 1px solid gainsboro;
-  margin-top: 25px;
+  margin-top: 2.5rem;
 }
 #re{
   color: lightcoral;
-  font-size: 50px;
-  padding-top: 60px;
+  font-size: 5rem;
+  padding-top: 6rem;
 }
 #aite{
-  padding-top: 30px;
+  padding-top: 3rem;
   color: rgba(128, 128, 128, 0.625);
-  font-size: 25px;
+  font-size: 2.5rem;
+}
+@media only screen and (max-width:600px){
+  html{
+    font-size: 6px;
+  }
 }
